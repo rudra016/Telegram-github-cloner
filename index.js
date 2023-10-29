@@ -5,7 +5,7 @@ const axios = require('axios');
 const fs = require('fs');
 
 // Replace 'YOUR_TELEGRAM_TOKEN' with your actual Telegram bot token
-const token = '6413723767:AAGDr77qkuZSCK0qgchFzkNFr05fyzfN7hQ';
+const token = 'Your Bot Key';
 const bot = new TelegramBot(token, { polling: true });
 
 bot.onText(/\/start/, (msg) => {
